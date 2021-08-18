@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92cbf1fa-9afd-4039-a426-522cd8170fb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/src/baekjoon/Solution.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/src/swea/Solution.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +34,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.2" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -103,73 +103,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607568377562</updated>
-      <workItem from="1607568378652" duration="1453000" />
+      <workItem from="1607568378652" duration="2179000" />
+      <workItem from="1619136348445" duration="18000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1607569864798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607569864798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1129" y="479" key="#Project_Structure" timestamp="1607569015997">
+    <state x="728" y="504" key="FileChooserDialogImpl" timestamp="1619136364660">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1129" y="479" key="#Project_Structure/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569015997" />
-    <state x="1103" y="462" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607569387582">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1103" y="462" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569387582" />
-    <state x="1379" y="553" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607569731743">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1379" y="553" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569731743" />
-    <state x="1268" y="400" key="CommitChangelistDialog2" timestamp="1607569200613">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1268" y="400" key="CommitChangelistDialog2/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569200613" />
-    <state x="1205" y="527" key="FileChooserDialogImpl" timestamp="1607568574740">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1205" y="527" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607568574740" />
-    <state width="1474" height="301" key="GridCell.Tab.0.bottom" timestamp="1607569852611">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1474" height="301" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569852611" />
-    <state width="1474" height="301" key="GridCell.Tab.0.center" timestamp="1607569852611">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1474" height="301" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569852611" />
-    <state width="1474" height="301" key="GridCell.Tab.0.left" timestamp="1607569852611">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1474" height="301" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569852611" />
-    <state width="1474" height="301" key="GridCell.Tab.0.right" timestamp="1607569852611">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1474" height="301" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569852611" />
-    <state width="1474" height="371" key="GridCell.Tab.1.bottom" timestamp="1607568750934">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1474" height="371" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607568750934" />
-    <state width="1474" height="371" key="GridCell.Tab.1.center" timestamp="1607568750934">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1474" height="371" key="GridCell.Tab.1.center/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607568750934" />
-    <state width="1474" height="371" key="GridCell.Tab.1.left" timestamp="1607568750934">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1474" height="371" key="GridCell.Tab.1.left/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607568750934" />
-    <state width="1474" height="371" key="GridCell.Tab.1.right" timestamp="1607568750934">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1474" height="371" key="GridCell.Tab.1.right/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607568750934" />
-    <state x="1038" y="463" key="SettingsEditor" timestamp="1607568576535">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1038" y="463" key="SettingsEditor/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607568576535" />
-    <state x="916" y="431" key="new project wizard" timestamp="1607569446843">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="916" y="431" key="new project wizard/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1607569446843" />
+    <state x="728" y="504" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-568.1440.2520@0.0.2560.1400" timestamp="1619136364660" />
   </component>
 </project>

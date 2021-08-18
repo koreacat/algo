@@ -1,0 +1,13 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	  "baekjoon": "node src/baekjoon/Solution.js",
+	  "swea": "node src/swea/Solution.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
