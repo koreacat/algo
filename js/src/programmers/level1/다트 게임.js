@@ -3,9 +3,15 @@ function solution(dartResult) {
     const commands = dartResult.split(/#?\*?[0-9]/g).filter(e => e);
     const prize = dartResult.split(/[0-9]S?D?T?/g).slice(1, 4);
 
-    const answer = nums[0] + nums[1] + nums[2];
 
     console.log(nums, commands, prize);
+
+
+    const answer = Number(nums[0]) + Number(nums[1]) + Number(nums[2]);
+
+    console.log(answer);
+
+    return answer;
 }
 
 solution('1S2D*3T');
