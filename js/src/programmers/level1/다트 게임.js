@@ -1,23 +1,30 @@
+const commandsMap = {
+    S: 1,
+    D: 2,
+    T: 3,
+}
+
 function solution(dartResult) {
     const nums = dartResult.split(/[SDT]#?\*?/g).filter(e => e);
-    const commands = dartResult.split(/#?\*?[0-9]/g).filter(e => e);
-    const prize = dartResult.split(/[0-9]S?D?T?/g).slice(1, 4);
+    const commands = dartResult.split(/[#\*0-9]/g).filter(e => e);
+    const prizes = dartResult.split(/[0-9]S?D?T?/g).slice(1, 4);
 
+    const getValue = (index) => {
+        const isDouble = prizes[index] === '*';
+        const isNextDouble = (index + 1 < 3 && prizes[index + 1] === '*');
+        const isMinus = prizes[index] === '#';
+        return (Number(nums[index]) ** commandsMap[commands[index]]) * (isMinus ? -1 : 1)  * (isDouble ? 2 : 1) * (isNextDouble ? 2 : 1);
+    }
 
-    console.log(nums, commands, prize);
-
-
-    const answer = Number(nums[0]) + Number(nums[1]) + Number(nums[2]);
-
-    console.log(answer);
+    const answer = nums.reduce((prev, curr, index) => { 
+        return prev + getValue(index); 
+    }, 0);
 
     return answer;
 }
 
-solution('1S2D*3T');
-solution('1D2S#10S');
-solution('1S*2T*3S');
-solution('1D#2S*3S');
+solution('1T2D3D#');
+solution('1D2S3T*');
 
 
 
