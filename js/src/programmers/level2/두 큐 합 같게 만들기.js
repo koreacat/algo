@@ -1,5 +1,5 @@
 function solution(q1, q2) {
-    const count = q1.length + q2.length + 100;
+    const count = q1.length + q2.length + 2;
     let sum1 = q1.reduce((sum, cur) => sum + cur, 0);
     let sum2 = q2.reduce((sum, cur) => sum + cur, 0);
     let idx1 = 0;
