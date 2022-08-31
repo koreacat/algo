@@ -13,27 +13,31 @@ const getCombinations = function (arr, selectNumber) {
 };
 
 function solution(relation) {
-    const column = relation[0].length;
-    let answer = 0;
+    const keys = []
+    const totalAttrCount = relation[0].length
+    const indexList = Array.from(Array(totalAttrCount), (x, index) => index) // [0,1,2,3 ... totalAttrCount-1]
 
-    for (let i = 1; i <= 1; i++) {
-        const t = Array.from(Array(column), () => new Array());
+    const isUnique = (relation, attrIndexComb) => {
+        let result = Array.from(Array(relation.length), x => '')
+        for (const attrIndex of attrIndexComb) {
+            relation.forEach((row, rowIndex) => result[rowIndex] += row[attrIndex])
+        }
+        return result.length === [...new Set(result)].length
+    }
 
-        for (let j = 0; j < relation.length; j++) {
-            const com = getCombinations(relation[j], i).map(e => e.join(''));
+    const isMinimal = (attrComb) => {
+        for (const key of keys) if (key.every(attr => attrComb.includes(attr))) return false
+        return true
+    }
 
-            // for (let k = 0; k < com.length; k++) {
-                // console.log(com[k]);
-                t[0].push(com[0]);
-            // }
-
-            console.log(t);
-            console.log(t[0]);
-            console.log(t[1]);
+    for (let attrCount = 1; attrCount <= totalAttrCount; attrCount++) {
+        const combinations = getCombinations(indexList, attrCount)
+        for (const attrComb of combinations) {
+            if (isMinimal(attrComb) && isUnique(relation, attrComb)) keys.push(attrComb)
         }
     }
 
-    return answer;
+    return keys.length
 }
 
 console.log(
