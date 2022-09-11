@@ -4,4 +4,3 @@
 programmers
  - level1
  - level2
-추석 휴가...
